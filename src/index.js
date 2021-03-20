@@ -1,17 +1,37 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+// const app = React.createElement(App);
+// ReactDOM.render(app, document.getElementById('root'));
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
+// =============================================================================
+// const link = React.createElement(
+//   'a',
+//   {
+//     href: 'https://reactjs.org/',
+//     target: '_blank',
+//     rel: 'noreferrer noopener',
+//   },
+//   'ссылка на reactjs.org',
+// );
+// console.log('link', link);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// const jsxLink = (
+//   <a href="https://google.com/" target="_blank" rel="noreferrer noopener">
+//     ссылка на google
+//   </a>
+// );
+// console.log(jsxLink);
+
+// ReactDOM.render(link, document.getElementById('root'));
+// ===============================================================================
+
+// console.log(template);
+// ReactDOM.render(template, document.getElementById('root'));
