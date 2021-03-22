@@ -1,4 +1,4 @@
-// import PaintingList from './components/PaintingList';
+import PaintingList from './components/PaintingList';
 import Logo from './components/Logo';
 import Panel from './components/Panel';
 import paintings from './paintings.json';
@@ -23,7 +23,7 @@ const App = () => {
       </Panel>
 
       <Logo text="Главный компонент-контейнер приложения" />
-      <PaintingList paintings={paintings123} />
+      <PaintingList paintings={paintings} />
     </div>
   );
 };
