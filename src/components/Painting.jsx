@@ -1,4 +1,3 @@
-import React from 'react-dom';
 import PropTypes from 'prop-types';
 import defaultImg from './default.jpg';
 
@@ -9,7 +8,7 @@ const Painting = ({ url, title, tag, profileUrl, price, quantity }) => {
       <img src={url} alt={title} width="320"></img>
       <h2>{title}</h2>
       <p>
-        Автор:{' '}
+        Автор:
         <a href={profileUrl} target="_blank" rel="noreferrer noopener">
           {tag}
         </a>
